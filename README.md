@@ -6,9 +6,14 @@ This project was generated using [Nx](https://nx.dev).
 
 based on https://nx.dev/recipe/dynamic-module-federation-with-angular
 
-# run npx nx run login:serve
-# run npx nx serve dashboard --devRemotes=login
-
+## start login
+```
+npx nx run login:serve
+```
+## start dashboard
+```
+npx nx serve dashboard --devRemotes=login
+```
 
 
 <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
